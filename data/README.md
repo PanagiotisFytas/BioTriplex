@@ -5,6 +5,6 @@ Extraction and Named Entity Recognition models. The dataset includes annotated t
 their relationships.
 
 ## Directory Structure
-- `Annotated Full Text Paper Folders/`: Contains subfolders for each paper with annotated `.xml` files with entity and 
+- `BioTriplex Corpus/`: Contains subfolders for each paper with annotated `.xml` files with entity and 
   relation annotations for different sections of PubMedCentral full-text articles.
-- `preprocessed_dataset/`: Contains preprocessed data files ready for use with various models.
+- `Preprocessed BioTriplex/`: Contains preprocessed data files ready for use with various models.

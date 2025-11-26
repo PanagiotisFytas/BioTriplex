@@ -8,10 +8,10 @@ annotations on PubMedCentral full-text articles, focusing on Gene, Disease and t
 
 This repo provides:
 
-- the BioTriplex corpus (full-text gene–disease annotations),
-- preprocessed splits for model training,
+- the BioTriplex corpus (`/data/BioTriplex Corpus`) (full-text gene–disease annotations),
+- preprocessed splits for model training (`/data/Preprocessed BioTriplex`),
 - BERT-based baselines, and
-- the LLaMA-based RE experiments, via the llama-rec framework.
+- the LLaMA-based experiments, via the llama-rec framework.
 
 ## Repository Structure
 
@@ -38,13 +38,13 @@ BioTriplex-results/
 │       ├── src
 │       └── tools
 └── data
-    ├── Annotated Full Text Paper Folders   # One folder per annotated paper
+    ├── BioTriplex Corpus   # The annotated BioTriplex full-text articles
     │   ├── 2275485
     │   ├── 2807459
     │   ├── ...
     │   └── 9992796
     ├── README.md              # Dataset description / format details
-    └── preprocessed_dataset   # Train/val/test splits for modelling
+    └── Preprocessed BioTriplex   # Train/val/test splits for modelling
         ├── splits.json
         ├── test_para.txt
         ├── test_shorter.txt
