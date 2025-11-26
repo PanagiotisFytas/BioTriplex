@@ -25,18 +25,20 @@ BioTriplex-results/
 │   │   ├── __init__.py
 │   │   ├── biotriplex_qakshot_dataset.py
 │   │   └── finetune_biotriplex_bert.py
-│   └── llama-rec               # LLaMA-based RE experiments (llama-rec framework)
-│       ├── CODE_OF_CONDUCT.md
-│       ├── CONTRIBUTING.md
-│       ├── README.md
-│       ├── UPDATES.md
-│       ├── dev_requirements.txt
-│       ├── docs
-│       ├── pyproject.toml
-│       ├── recipes
-│       ├── requirements.txt
-│       ├── src
-│       └── tools
+│   ├── llama-rec               # LLaMA-based RE experiments (llama-rec framework)
+│   │   ├── CODE_OF_CONDUCT.md
+│   │   ├── CONTRIBUTING.md
+│   │   ├── README.md
+│   │   ├── UPDATES.md
+│   │   ├── dev_requirements.txt
+│   │   ├── docs
+│   │   ├── pyproject.toml
+│   │   ├── recipes
+│   │   ├── requirements.txt
+│   │   ├── src
+│   │   └── tools
+│   ├── dygixepp  # Have not been uploaded yet
+│   └── API-models # LLMs and PubTator API-based RE and NER experiments
 └── data
     ├── BioTriplex Corpus   # The annotated BioTriplex full-text articles
     │   ├── 2275485
