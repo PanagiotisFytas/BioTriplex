@@ -8,7 +8,7 @@ annotations on PubMedCentral full-text articles, focusing on Gene, Disease and t
 
 This repo provides:
 
-- the BioTriplex corpus (`/data/BioTriplex Corpus`) (full-text gene, disease and relation annotations),
+- the **BioTriplex corpus** (`/data/BioTriplex Corpus`) (full-text gene, disease and relation annotations),
 - preprocessed splits for model training (`/data/Preprocessed BioTriplex`),
 - BERT-based baselines, and
 - the LLaMA-based experiments, via the llama-rec framework.
